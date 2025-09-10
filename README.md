@@ -60,6 +60,6 @@ This project demonstrates my ability to take an idea from **wireframe → protot
 ---
 
 ## 🔗 Preview
-(Ihttps://decorafurn.netlify.app/)
+(https://decorafurn.netlify.app/)
 
 ---
