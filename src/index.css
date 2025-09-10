@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	/* Colors */
+	--primary-color: #286f6c;
+	--white: #ffffff;
+	--dark: #23262f;
+
+	/* Button Color */
+	--btn-light: rgba(255, 255, 255, 0.4);
+	--btn-dark: #23262f;
+}
+
+@layer base {
+	body {
+		@apply bg-grey-3 font-primary text-base leading-relaxed;
+	}
+	.section {
+		@apply py-[50px] lg:py-[70px];
+	}
+	.title {
+		@apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
+	}
+	.subtitle {
+		@apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+	}
+}
