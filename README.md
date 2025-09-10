@@ -60,6 +60,6 @@ This project demonstrates my ability to take an idea from **wireframe → protot
 ---
 
 ## 🔗 Preview
-(If deployed, add your link here – e.g., Netlify / Vercel)
+(Ihttps://decorafurn.netlify.app/)
 
 ---
