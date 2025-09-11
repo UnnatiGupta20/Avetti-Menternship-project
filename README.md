@@ -1,7 +1,6 @@
 # Avetti Mentorship – Home Decor Website Prototype
 
-This repository contains the project I built during my internship/mentorship with **Avetti Commerce**.  
-The goal was to design and develop a **modern, responsive home décor website prototype** focusing on simplicity, usability, and engaging user experience.
+This project was completed as part of my internship/mentorship at Avetti, a SaaS-based company that provides scalable e-commerce solutions. I designed and developed the complete UI/UX for a furniture e-commerce website, which demonstrates the application of Avetti’s SaaS platform. The project includes wireframes, prototypes, and a deployed responsive website.
 
 ---
 
