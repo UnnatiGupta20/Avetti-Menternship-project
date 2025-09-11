@@ -1,6 +1,6 @@
-# Avetti Mentorship – Home Decor Website Prototype
+# Avetti Menternship – Home Decor Website Prototype
 
-This project was completed as part of my internship/mentorship at Avetti, a SaaS-based company that provides scalable e-commerce solutions. I designed and developed the complete UI/UX for a furniture e-commerce website, which demonstrates the application of Avetti’s SaaS platform. The project includes wireframes, prototypes, and a deployed responsive website.
+This project was completed as part of my internship/Menternship at Avetti, a SaaS-based company that provides scalable e-commerce solutions. I designed and developed the complete UI/UX for a furniture e-commerce website, which demonstrates the application of Avetti’s SaaS platform. The project includes wireframes, prototypes, and a deployed responsive website.
 
 ---
 
@@ -40,7 +40,7 @@ This project was completed as part of my internship/mentorship at Avetti, a SaaS
 
 ---
 
-## 📖 Mentorship Learnings
+## 📖 Menternship Learnings
 - Gained hands-on experience in **UX design** and **prototype development**.  
 - Learned how to translate **wireframes into responsive designs**.  
 - Improved knowledge of **ReactJS** for building scalable frontend projects.  
