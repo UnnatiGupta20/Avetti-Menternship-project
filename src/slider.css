@@ -1,10 +1,10 @@
 .productSlider .swiper-pagination-bullet {
-	background: #23262f;
+	background: #A0522D;
 }
 
 .productSlider .swiper-button-prev,
 .productSlider .swiper-button-next {
-	background: #23262f;
+	background: #4B2E2E;
 	box-shadow: 0px 4px 10px rgba(15, 27, 51, 0.1);
 	top: 97%;
 	width: 50px;
@@ -17,7 +17,7 @@
 .productSlider .swiper-button-next:hover,
 .testimonialSlider .swiper-button-prev:hover,
 .testimonialSlider .swiper-button-next:hover {
-	background: #286f6c;
+	background: #D2B48C;
 	transition: all 0.25s ease-in-out;
 }
 
@@ -42,7 +42,7 @@
 
 .testimonialSlider .swiper-button-prev,
 .testimonialSlider .swiper-button-next {
-	background: #23262f;
+	background: #4B2E2E;
 	box-shadow: 0px 4px 10px rgba(15, 27, 51, 0.1);
 	top: 85%;
 	width: 50px;

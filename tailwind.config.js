@@ -1,43 +1,42 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{js,jsx,ts,tsx}"],
-	theme: {
-		container: {
-			padding: {
-				DEFAULT: "1.5rem",
-				// lg: '3rem',
-			},
-		},
-		screens: {
-			sm: "640px",
-			md: "768px",
-			lg: "1024px",
-			xl: "1280px",
-		},
-		extend: {
-			fontFamily: {
-				primary: ["Saira", "sans-serif"],
-			},
-			colors: {
-				primary: "#23262F",
-				accent: "#286F6C",
-				grey: {
-					DEFAULT: "#919297",
-					1: "#D9D9D9",
-					2: "#E7E9EB",
-					3: "#F5F5F5",
-				},
-				white: "#fff",
-				pink: "pink",
-			},
-			backgroundImage: {
-				hero: 'url("/src/assets/images/hero-bg.png")',
-				newsletter: 'url("/src/assets/images/newsletter.png")',
-			},
-			dropShadow: {
-				primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",
-			},
-		},
-	},
-	plugins: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    container: {
+      padding: {
+        DEFAULT: "1.5rem",
+      },
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+    },
+    extend: {
+      fontFamily: {
+        primary: ["Saira", "sans-serif"],
+      },
+      colors: {
+        primary: "#4B2E2E", // dark brown
+        accent: "#D2B48C", // warm beige
+        secondary: "#A0522D", // terracotta
+        grey: {
+          DEFAULT: "#7D7D7D",
+          1: "#D9D9D9",
+          2: "#E7E9EB",
+          3: "#F5F5F5",
+        },
+        white: "#FAF7F2", // soft off-white background
+      },
+      backgroundImage: {
+        hero: 'url("/src/assets/images/hero-bg.png")',
+        newsletter: 'url("/src/assets/images/newsletter.png")',
+      },
+      dropShadow: {
+        primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",
+      },
+    },
+  },
+  plugins: [],
 };

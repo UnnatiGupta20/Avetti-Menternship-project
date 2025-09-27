@@ -5,27 +5,27 @@
 @tailwind utilities;
 
 :root {
-	/* Colors */
-	--primary-color: #286f6c;
-	--white: #ffffff;
-	--dark: #23262f;
+  /* Colors */
+  --primary-color: #4b2e2e;
+  --white: #ffffff;
+  --dark: #23262f;
 
-	/* Button Color */
-	--btn-light: rgba(255, 255, 255, 0.4);
-	--btn-dark: #23262f;
+  /* Button Color */
+  --btn-light: rgba(255, 255, 255, 0.4);
+  --btn-dark: #4b2e2e;
 }
 
 @layer base {
-	body {
-		@apply bg-grey-3 font-primary text-base leading-relaxed;
-	}
-	.section {
-		@apply py-[50px] lg:py-[70px];
-	}
-	.title {
-		@apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
-	}
-	.subtitle {
-		@apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
-	}
+  body {
+    @apply bg-grey-3 font-primary text-base leading-relaxed;
+  }
+  .section {
+    @apply py-[50px] lg:py-[70px];
+  }
+  .title {
+    @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
+  }
+  .subtitle {
+    @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+  }
 }

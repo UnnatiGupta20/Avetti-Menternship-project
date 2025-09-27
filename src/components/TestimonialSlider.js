@@ -10,34 +10,36 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const TestimonialSlider = () => {
-	const { persons } = testimonial;
-	return (
-		<Swiper
-			centeredSlides={true}
-			autoplay={{
-				delay: 2500,
-				disableOnInteraction: false,
-			}}
-			navigation={true}
-			modules={[Autoplay, Navigation]}
-			className='max-w-[635px] w-full testimonialSlider'
-		>
-			{persons.map((person, index) => (
-				<SwiperSlide key={index}>
-					<div className='w-full py-5 min-h-[280px]'>
-						<div className='flex gap-x-5'>
-							<img src={person.avatar.type} alt={person.name} />
-							<div className='self-center'>
-								<h3 className='text-xl font-semibold'>{person.name}</h3>
-								<p>{person.occupation}</p>
-							</div>
-						</div>
-						<div className='py-8'>{person.message}</div>
-					</div>
-				</SwiperSlide>
-			))}
-		</Swiper>
-	);
+  const { persons } = testimonial;
+  return (
+    <Swiper
+      centeredSlides={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      navigation={true}
+      modules={[Autoplay, Navigation]}
+      className="max-w-[635px] w-full testimonialSlider"
+    >
+      {persons.map((person, index) => (
+        <SwiperSlide key={index}>
+          <div className="w-full py-5 min-h-[280px]">
+            <div className="flex gap-x-5">
+              <img src={person.avatar.type} alt={person.name} />
+              <div className="self-center">
+                <h3 className="text-xl font-semibold text-secondary">
+                  {person.name}
+                </h3>
+                <p className="text-accent">{person.occupation}</p>
+              </div>
+            </div>
+            <div className="py-8 text-secondary">{person.message}</div>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
 };
 
 export default TestimonialSlider;
