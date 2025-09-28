@@ -18,16 +18,16 @@ module.exports = {
         primary: ["Saira", "sans-serif"],
       },
       colors: {
-        primary: "#4B2E2E", // dark brown
-        accent: "#D2B48C", // warm beige
-        secondary: "#A0522D", // terracotta
+        primary: "#4B2E2E", 
+        accent: "#D2B48C", 
+        secondary: "#A0522D", 
         grey: {
           DEFAULT: "#7D7D7D",
           1: "#D9D9D9",
           2: "#E7E9EB",
           3: "#F5F5F5",
         },
-        white: "#FAF7F2", // soft off-white background
+        white: "#FAF7F2", 
       },
       backgroundImage: {
         hero: 'url("/src/assets/images/hero-bg.png")',
